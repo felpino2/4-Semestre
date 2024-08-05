@@ -1,0 +1,6 @@
+clone - clona repos na maquina local
+pull - atualiza repos local
+
+add - adiciona alteração do repos local no staging
+commit - salva alteração no repos local  
+push - enviar alterações p/ repos remoto
