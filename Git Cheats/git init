@@ -1,0 +1,10 @@
+mkdir [nome pasta]
+cd [nome pasta]
+
+git init
+touch README.md
+git add .
+git commit -m "repos"
+
+git push --set-upstream https://gitlab.com/[grupo]/[repositorio] . git(?)
+git push --set-upstream https://gitlab.com/ltp2-a-luiz-eduardo/

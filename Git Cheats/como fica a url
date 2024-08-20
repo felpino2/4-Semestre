@@ -1,0 +1,12 @@
+ip:8080/judge?strategy=corrupt
+
+if path != "/judge" {
+		res.Write([]byte("Not Found (404) " + path))
+		return
+	}
+	
+	s := url.Query().Get("strategy")
+decision := referees[Strategy(s)].Decide(Event{})
+	
+	// json
+res.Write(decision.Bytes())

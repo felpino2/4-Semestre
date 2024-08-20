@@ -1,0 +1,13 @@
+clone with https
+git clone URL
+ls
+cd nomePasta/
+git status
+gedit&
+go build *.go
+ls
+./executavel
+rm -rf executavel
+git add .
+git commit -m
+git push

@@ -1,0 +1,19 @@
+event.go
+
+referee.go
+country.go
+decidable.go // event.go
+decision.go
+
+types eagleeyes, honest, corrupt referees
+
+main.go
+
+
+////decidable
+package main
+
+// The abstract behaviour of referee's
+type Decidable interface {
+	
+	Decide(event Event) Decision; //func Decide entra event do tipo Event e sai Decision
